@@ -1,0 +1,100 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.input , .add{
+    border-radius: 8px;
+    height: 3.375rem;
+    padding: 0.5rem;
+
+    margin-top: -1.6875rem;
+}
+
+.input {
+    width: 39.875rem;
+    border: solid 1px var(--gray-700);
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+    margin-right: 0.5rem;
+    padding-left: 20px;
+
+    font-size: 18px;
+}
+
+input:focus {
+   outline: 2px solid var(--purple-light);
+}
+
+.add {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+    width: 5.625rem;
+    border: 0;
+    background-color: var(--blue-dark);
+    color: var(--gray-100); 
+
+    font-size: 14px;
+    font-weight: bold;
+
+    transition: background-color 0.3s;
+}
+
+.add:hover {
+    background-color: var(--blue-light);
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    justify-content: center;
+    align-content: center;
+    
+    width: 46rem;
+}
+
+.main header{
+    display: flex;
+}
+
+.created {
+    display: flex;
+    gap: 10px;
+    width: 23rem;
+    color: var(--blue-light);
+    justify-content: left;
+    align-items: center;
+}
+
+.completed {
+    color: var(--purple-light);
+    display: flex;
+    gap: 10px;
+    width: 23rem;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+.created p, .completed p{
+    width: 25px;
+    border: 2px solid var(--gray-400);
+    font-weight: bold;
+    text-align: center;
+    
+    background-color: var(--gray-400);
+    border-radius: 20px;
+    color: var(--gray-200); 
+}
+
+
+

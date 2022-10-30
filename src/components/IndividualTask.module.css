@@ -1,0 +1,85 @@
+.noTask {
+    margin-top: 1.5rem;
+    border-top: 2px solid #333333;
+    border-radius: 10px;
+    display: block;
+    color: var(--gray-300);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.noTask svg{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.task {
+    align-items: flex-start;
+    display: flex;
+    color: var(--gray-100);
+    margin-top: 1.5rem;
+    padding: 20px;
+    background: var(--gray-400);
+    border-radius: 5px;
+}
+
+
+.task p{
+    overflow-wrap: break-word;
+    text-align: left;
+    padding: 0px 30px 0px 10px;
+    width: 90%;
+}
+
+.task s{
+    color: var(--gray-300);
+    overflow-wrap: break-word;
+    text-align: left;
+    padding: 0px 30px 0px 10px;
+    width: 90%;
+}
+
+.divMarked {
+    display: flex;
+    width: 5%;
+    justify-content: start;
+}
+
+.divTrash {
+    display: flex;
+    width: 5%;
+    justify-content: end;
+}
+
+.marked {
+    height: 25px;
+    background: transparent;
+    box-sizing: content-box;
+    border: transparent;
+    color: var(--blue-light);
+}
+
+.marked:hover {
+    cursor: pointer;
+}
+
+.marked:hover svg{
+    color: rgb(132, 202, 248);
+}
+
+.trash {
+    background: transparent;
+    border: transparent;
+    border-radius: 3px;
+    color: var(--gray-300);
+}
+
+.trash:hover{
+    color: var(--danger);
+    cursor: pointer;
+}
+
