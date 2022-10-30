@@ -35,13 +35,13 @@
 }
 
 .created p, .completed p{
-    width: 25px;
-    border: 2px solid var(--gray-400);
+    min-width: 25px;
+    border: 3px solid var(--gray-400);
     font-weight: bold;
     text-align: center;
     
     background-color: var(--gray-400);
-    border-radius: 20px;
+    border-radius: 10px;
     color: var(--gray-200); 
 }
 
